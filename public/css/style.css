@@ -6,14 +6,14 @@ body {
 }
 
 .container {
-	width:80%;
+	width:90%;
 	margin:auto;
 	overflow:hidden;
 }
 
 ul{
-	margin:0;
-	padding:0;
+	margin-left: 10px;
+	padding:15px;
 }
 
 .dark {
@@ -100,23 +100,32 @@ header .highlight {
   padding:10px;
 }
 
-img {
+#boxes #box img {
 	height: 120px;
 	width: 90px;
 	border-radius: 25px;
 }
 
-aside #sidebar {
+aside{
 	float: right;
 	width: 30%;
-	margin-top: 10px;
-	margin-left: : 20px;
+	margin-top: 10px
+}
+aside #sidebar {
+	width: 90%;
+	padding: 5px;
 }
 
-article#main-col{
+article#main-col, #main-col4{
   padding: 10px; 
   float:left;
   width:65%;
+}
+aside .Charts {
+	padding: 10px;
+	float: left;
+	width: 65%;
+	margin-top: 530px;
 }
 
 footer {
@@ -128,7 +137,7 @@ footer {
 }
 
 
-@media(max-width: 500px){
+@media(max-width: 799px){
   header #branding,
   header nav,
   header nav li,
