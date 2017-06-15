@@ -113,8 +113,7 @@ aside #sidebar {
 	margin: 10px;
 }
 
-
-article#main-col{
+article#main-col-1{
   float:left;
   width:65%;
 }
@@ -134,6 +133,7 @@ footer {
   header nav li,
   #newsletter h1,
   #boxes #box,
+  article#main-col-1,
   article#main-col,
   aside#sidebar, img{
     float:none;
