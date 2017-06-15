@@ -10,8 +10,11 @@ body {
 	margin:auto;
 	overflow:hidden;
 }
-
-ul{
+ul {
+	margin: 0;
+	padding: 0;
+}
+#list{
 	margin-left: 10px;
 	padding:15px;
 }
