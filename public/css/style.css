@@ -4,6 +4,15 @@ body {
 	margin: 0;
 	background-color: #f4f4f4;
 }
+nav {
+	min-height:70px;
+  	border-bottom:#e8491d 3px solid;
+}
+
+.semclass {
+	min-height:70px;
+  	border-bottom:#e8491d 3px solid;
+}
 
 .container {
 	width:90%;
@@ -13,6 +22,9 @@ body {
 ul {
 	margin: 0;
 	padding: 0;
+}
+#info{
+	margin-left: 10px;
 }
 #list{
 	margin-left: 10px;
@@ -26,45 +38,26 @@ ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
-
-header {
-  background:#35424a;
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#e8491d 3px solid;
+nav .nav-wrapper a {
+	margin: 0 10px 0 10px;
+}
+.nav-wrapper {
+	background: #35424a;
+}
+nav .highlight {
+	color:#cccccc;
+  font-weight:bold;
+}
+h3 {
+	font-weight: bold;
 }
 
-header a {
-	color: #ffffff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 16px;
-}
-
-header li {
+nav li {
 	float: left;
 	display: inline;
 	padding: 0 20px 0 20px; /* TRBL */
 }
 
-header #branding {
-	float: left;
-}
-
-header #branding h1 {
-	margin: 0;
-}
-
-header nav {
-	float: right;
-	margin-top: 10px;
-}
-header .highlight {
-	color: #3497DB;
-	font-weight: bold;
-}
 
 #showcase {
 	min-height: 400px;
@@ -107,7 +100,11 @@ header .highlight {
 #boxes #box img {
 	height: 120px;
 	width: 90px;
-	border-radius: 25px;
+	border-radius: 40px;
+}
+ul #list li {
+	font-weight: bold;
+	font-size: 25px;
 }
 
 aside{
@@ -132,13 +129,24 @@ aside .Charts {
 	margin-top: 530px;
 }
 
-footer {
-	padding: 20px;
-	margin-top: 20px;
-	color: #ffffff;
-	background-color: #9B59b6;
-	text-align: center;
+
+
+
+#error {
+	padding-top: 50px;
+	margin-top: 50px;
 }
+
+
+
+
+.page-footer {
+	background-color: #37474f;
+}
+
+
+
+
 
 
 @media(max-width: 799px){
@@ -150,7 +158,8 @@ footer {
   article#main-col,
   article#main-col2,
   article#main-col3,
-  aside#sidebar, img{
+  aside#sidebar, img
+  {
     float:none;
     text-align:center;
     width:100%;
