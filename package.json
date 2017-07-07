@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Search Engine Optimization",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.15.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
